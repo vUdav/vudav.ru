@@ -1,8 +1,20 @@
 import React, { Component } from "react";
+import PersonalCard from "components/PersonalCard";
+import styled from "styled-components";
+import bg from "./img/bg2.jpeg";
+
+const Wrapper = styled.div`
+  background: url(${bg}) center no-repeat;
+  background-size: cover;
+`;
 
 class App extends Component {
   render() {
-    return <div className="App" />;
+    return (
+      <Wrapper>
+        <PersonalCard />
+      </Wrapper>
+    );
   }
 }
 
