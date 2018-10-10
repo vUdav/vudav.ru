@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PersonalCard from "components/PersonalCard";
+import PersonalCard from "components/PersonalCard.js";
 import styled from "styled-components";
 import bg from "./img/bg2.jpeg";
 
