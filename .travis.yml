@@ -14,7 +14,7 @@ before_install:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $gh-pages-token
+  github-token: $githubToken
   keep-history: true
   on:
     branch: master
